@@ -70,7 +70,7 @@ def main():
         matrix_flat += matrix[i]
 
     matrix_quick = quickSort(matrix_flat,0, len(matrix_flat)-1)
-    matrix_buble = bubblesort(matrix_flat)
+    #matrix_buble = bubblesort(matrix_flat)
 
     matrix = []
     for i in range(0, m_h * m_w, m_w):
